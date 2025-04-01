@@ -1,5 +1,13 @@
 # Face-Recognition
 
+## Working Principle
+The working principle of facial recognition involves several key steps. 
+* First, the system captures an image or a video frame containing a face.
+* It then analyzes facial landmarks and selects special features such as the position of the eyes, mouth and nose.
+* These features are converted into a mathematical representation called a face template.
+* Next, the face template is compared to the templates stored in the system’s database.
+* If a match is found, the system identifies the person. This process relies on sophisticated algorithms that can handle variations in lighting conditions, facial expressions, and even aging.
+
 ## Traditional Methods to Face Recognition
 ### 1. Eigenfaces - 
 Utilized Principal Component Analysis (PCA) to extract facial features and identify individuals based on eigenvalues and eigenvectors of the face images
